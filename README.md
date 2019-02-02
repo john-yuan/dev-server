@@ -41,7 +41,7 @@ var app = server.start({
 
 // You can define your extra routes here
 app.get('/api/test', function (req, res) {
-    res.send('This is response of /api/test');
+    res.send('This is the response of /api/test');
 });
 ```
 
