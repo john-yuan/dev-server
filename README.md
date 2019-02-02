@@ -35,6 +35,8 @@ var app = server.start({
     printAccessLog: false,
     // The options passed to express.static
     serveStaticOptions: null
+}, function () {
+    // console.log('server statred');
 });
 
 // You can define your extra routes here
