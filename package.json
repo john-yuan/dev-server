@@ -1,0 +1,29 @@
+{
+  "name": "@john-yuan/dev-server",
+  "version": "1.0.0",
+  "description": "A simple server based on express. Can be used to start a static file server very quick. Also support route definition.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-yuan/dev-server.git"
+  },
+  "keywords": [
+    "static",
+    "server",
+    "indexer"
+  ],
+  "author": "JOHN YUAN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/john-yuan/dev-server/issues"
+  },
+  "homepage": "https://github.com/john-yuan/dev-server#readme",
+  "dependencies": {
+    "@john-yuan/dev-simple-logger": "^1.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
