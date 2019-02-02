@@ -47,4 +47,4 @@ app.get('/api/test', function (req, res) {
 
 ## Screenshot
 
-![Bash scrennshot](./screenshot.png)
+![Bash screenshot](./screenshot.png)
