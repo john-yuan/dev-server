@@ -42,3 +42,7 @@ app.get('/api/test', function (req, res) {
     res.send('This is response of /api/test');
 });
 ```
+
+## Screenshot
+
+![Bash scrennshot](./screenshot.png)
