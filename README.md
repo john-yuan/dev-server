@@ -16,6 +16,16 @@ npm i @john-yuan/dev-server
 
 ## Example
 
+Quick start without any options:
+
+```js
+var server = require('@john-yuan/dev-server');
+
+server.start();
+```
+
+Start with options:
+
 ```js
 var server = require('@john-yuan/dev-server');
 
@@ -36,6 +46,7 @@ var app = server.start({
     // The options passed to express.static
     serveStaticOptions: null
 }, function () {
+    // This callback is called after the server is started
     // console.log('server statred');
 });
 
