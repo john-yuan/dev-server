@@ -1,6 +1,6 @@
 {
   "name": "@john-yuan/dev-server",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple server based on express. Can be used to start a static file server very quick. Also support route definition.",
   "main": "index.js",
   "scripts": {
