@@ -45,9 +45,10 @@ var app = server.start({
     printAccessLog: false,
     // The options passed to express.static
     serveStaticOptions: null
-}, function () {
+}, function (port) {
     // This callback is called after the server is started
-    // console.log('server statred');
+    // The parameter port is the final port the server start on
+    console.log('Server started on port: ' + port);
 });
 
 // You can define your extra routes here
