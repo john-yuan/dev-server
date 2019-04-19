@@ -43,12 +43,17 @@ var app = server.start({
     tryNextPort: true,
     // Whether to print access log to console
     printAccessLog: false,
+    // Whether to print log, defautl value is true
+    printLog: true,
     // The options passed to express.static
     serveStaticOptions: null
-}, function (port) {
+}, function (port, hosts, webroot, options) {
     // This callback is called after the server is started
     // The parameter port is the final port the server start on
-    console.log('Server started on port: ' + port);
+    console.log(port);
+    console.log(hosts);
+    console.log(webroot);
+    console.log(options);
 });
 
 // You can define your extra routes here
